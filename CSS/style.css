@@ -1,4 +1,4 @@
-
+ 
 /* mainhead/slogan/bighello */
 h1{
     font-family: 'Helvetica';
@@ -51,11 +51,11 @@ p{
     line-height: 175%;
     color: #303030;
 }
-
+ 
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    
+   
     }
 /* spacer seperates header from body content */
 .spacer
@@ -63,8 +63,8 @@ p{
     width: 100%;
     height: 95px;
 }
-
-
+ 
+ 
 /* TOP NAVIGATION */
 #floatingMenu{
     clear: both;
@@ -83,7 +83,7 @@ header{
     max-width:100%;
     z-index: 1;
         }
-
+ 
     /* Top nav list items: */
     nav {
         position: fixed;
@@ -104,14 +104,14 @@ header{
             margin-right: 15px;
             margin-bottom: 15px
         }
-        .topnavList { 
+        .topnavList {
                 width: auto;
-                margin-left: 30%; 
-                margin-right:72px; 
+                margin-left: 30%;
+                margin-right:72px;
                 text-align: center;
                 float: right;
                 color: #303030;
-                
+               
             }
     .logo {
             height: 116px;
@@ -119,22 +119,22 @@ header{
             position: absolute;
             top: 0px;
             left: 0px;
-            
+           
             }
-
+ 
 #LANDING {
     display: flex;
     /* justify-content: space-around; */
     max-width: 100%;
     }
-    
+   
     #LANDleft {
     /* background-color: #FAF9FD; */
     width: 640px;
     float: left;
     /* margin-left: 72px; */
     }
-    
+   
     #LANDright {
     /* background-color: #ECEAF6; */
     width: 310px;
@@ -152,20 +152,20 @@ header{
         left: 110px;
         top: 123.5px;
     }
-
+ 
     /* AVATAR is in this section (needs positioning) 1/7 */
-
-
-
+ 
+ 
+ 
 body{
     width:1920px;
     margin-left: 72px;
-    margin-right: 72px;   
+    margin-right: 72px;  
 }
-
-
-
-    
+ 
+ 
+ 
+   
 /*MAIN CONTENT*/
     .content {
     width:1920px;
@@ -178,75 +178,75 @@ body{
     /* justify-content: space-around; */
     max-width: 100%;
   }
-  
+ 
   #CASAleft {
     background-color: #FAF9FD;
     width: 50%;
     float: left;
   }
-  
+ 
   #CASAright {
     background-color: #ECEAF6;
     width: 50%;
     float: right;
   }
-
-
+ 
+ 
   /* NSA */
   #NSA {
     display: flex;
     /* justify-content: space-around; */
     max-width: 100%;
   }
-  
+ 
   #NSAleft {
     background-color: #CFDFEF;
     width: 50%;
     float: left;
   }
-  
+ 
   #NSAright {
     background-color: #F5F9FC;
     width: 50%;
     float: right;}
-
-
+ 
+ 
 /* ONLYPETS */
 #ONLYPETS {
     display: flex;
     /* justify-content: space-around; */
     max-width: 100%;
   }
-  
+ 
   #OPleft {
     background-color: #FEFAF6;
     width: 50%;
     float: left;
   }
-  
+ 
   #OPright {
     background-color: #F8E2C8;
     width: 50%;
     float: right;}
-
-
+ 
+ 
 /* CONTACT */
     #CONTACT {
         display: flex;
         /* justify-content: space-around; */
         max-width: 100%;
       }
-      
+     
       #chatleft {
         width: 50%;
         float: left;
       }
-      
+     
       #chatright {
         width: 50%;
         float: right;}
-
-
+ 
+ 
 /* BUTTONS */
 button{
     box-sizing: border-box;
@@ -260,14 +260,14 @@ button{
     height: 84px;
     background: #FFFFFF;
     border: 3px solid #000;
-}   
-    
-
-
-
+}  
+   
+ 
+ 
+ 
 /*FOOTER*/
 footer{
-
+ 
     width: 100%;
     margin-left: 30%;  
     text-align: right;
@@ -300,16 +300,16 @@ footer{
     font-size: 25px;
     line-height: 175%;
     }
-
-
-
-    
-
-
-
-
-
-
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
 /* "ABOUT PAGE" styling */
 .bigHello{
     font-family: 'Helvetica';
@@ -328,7 +328,9 @@ footer{
     font-family: 'Helvetica';
     font-style: normal;
 }
-
-
-
+ 
+ 
+ 
+ 
+ 
 
