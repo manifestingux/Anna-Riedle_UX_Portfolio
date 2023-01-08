@@ -1,0 +1,334 @@
+
+/* mainhead/slogan/bighello */
+h1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+/* smallhead/buttons/jobtitle */
+h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 175%;
+    /* identical to box height, or 44px */
+    text-transform: uppercase;
+}
+/* minihead */
+h3{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #383C4A;
+}
+/* special hi */
+h4{
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+}
+h5{
+font-family: Helvetica;
+}
+h6{
+    font-family: Helvetica;
+}
+/* content text */
+p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 175%;
+    color: #303030;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    
+    }
+/* spacer seperates header from body content */
+.spacer
+{
+    width: 100%;
+    height: 95px;
+}
+
+
+/* TOP NAVIGATION */
+#floatingMenu{
+    clear: both;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    }
+header{
+    position: fixed;
+    height: 116px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    max-width:100%;
+    z-index: 1;
+        }
+
+    /* Top nav list items: */
+    nav {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        width: 98%;
+        height: 116px;
+        background-color: #fff;
+        font-family: 'Helvetica';
+        font-style: light;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 175%;
+        }
+        .navMargin{
+            margin-left:15px;
+            margin-right: 15px;
+            margin-bottom: 15px
+        }
+        .topnavList { 
+                width: auto;
+                margin-left: 30%; 
+                margin-right:72px; 
+                text-align: center;
+                float: right;
+                color: #303030;
+                
+            }
+    .logo {
+            height: 116px;
+            background-color: #fff;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+            }
+
+#LANDING {
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 100%;
+    }
+    
+    #LANDleft {
+    /* background-color: #FAF9FD; */
+    width: 640px;
+    float: left;
+    /* margin-left: 72px; */
+    }
+    
+    #LANDright {
+    /* background-color: #ECEAF6; */
+    width: 310px;
+    float: right;
+    }
+      .slogan{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 175%;
+        color: #303030;
+        width: 640px;
+        height: 140px;
+        left: 110px;
+        top: 123.5px;
+    }
+
+    /* AVATAR is in this section (needs positioning) 1/7 */
+
+
+
+body{
+    width:1920px;
+    margin-left: 72px;
+    margin-right: 72px;   
+}
+
+
+
+    
+/*MAIN CONTENT*/
+    .content {
+    width:1920px;
+    /* margin: 0 72px; */
+    }
+/* Splitting content into columns */
+/* CASA */
+#CASA {
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 100%;
+  }
+  
+  #CASAleft {
+    background-color: #FAF9FD;
+    width: 50%;
+    float: left;
+  }
+  
+  #CASAright {
+    background-color: #ECEAF6;
+    width: 50%;
+    float: right;
+  }
+
+
+  /* NSA */
+  #NSA {
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 100%;
+  }
+  
+  #NSAleft {
+    background-color: #CFDFEF;
+    width: 50%;
+    float: left;
+  }
+  
+  #NSAright {
+    background-color: #F5F9FC;
+    width: 50%;
+    float: right;}
+
+
+/* ONLYPETS */
+#ONLYPETS {
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 100%;
+  }
+  
+  #OPleft {
+    background-color: #FEFAF6;
+    width: 50%;
+    float: left;
+  }
+  
+  #OPright {
+    background-color: #F8E2C8;
+    width: 50%;
+    float: right;}
+
+
+/* CONTACT */
+    #CONTACT {
+        display: flex;
+        /* justify-content: space-around; */
+        max-width: 100%;
+      }
+      
+      #chatleft {
+        width: 50%;
+        float: left;
+      }
+      
+      #chatright {
+        width: 50%;
+        float: right;}
+
+
+/* BUTTONS */
+button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    width: 232px;
+    height: 84px;
+    background: #FFFFFF;
+    border: 3px solid #000;
+}   
+    
+
+
+
+/*FOOTER*/
+footer{
+
+    width: 100%;
+    margin-left: 30%;  
+    text-align: right;
+    float: right;
+    position: fixed;
+    height: 116px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #FDECE9;
+    font-family: 'Helvetica';
+    font-style: light;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 175%;
+    }
+.footerList {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+    margin-left: 30%;  
+    text-align: center;
+    padding: 2%;
+    height: 116px;
+    font-family: 'Helvetica';
+    font-style: light;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 175%;
+    }
+
+
+
+    
+
+
+
+
+
+
+/* "ABOUT PAGE" styling */
+.bigHello{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.jobTitle{
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+.careerSlogan{
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+
+
+
