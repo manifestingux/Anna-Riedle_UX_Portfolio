@@ -7,17 +7,17 @@
      
     <body>
 <!-- HEADER -->
-    <!--Can't get the logo to line up in the nav bar 1/7-->
  <section>       
     <header id="floatingMenu">
             
-            <nav class="inline-block topnavList">
-                <ul>
-                 <li class="inline-block navMargin">About</li>
-                 <li class="inline-block navMargin"> Work</li>
-                 <li class="inline-block navMargin">LinkedIn</li>
-                 <li class="inline-block navMargin">Resume</li>
+            <nav class="inline-block">
+                <ul class="topnavList">
+                <li class="inline-block navMargin"><a href="index.html">Work</a></li>
+                 <li class="inline-block navMargin"><a href="about.html"> About </a></li>
+                 <li class="inline-block navMargin"><a href="https://www.linkedin.com/in/manifestingux/" target="blank">LinkedIn</a></li>
+                 <li class="inline-block navMargin"><a href="https://drive.google.com/file/d/1opaDoS01KjANEHUlz5idYP9Qv4E7E9ve/view?usp=share_link" target="blank">Resume</a></li>
                  </ul>
+                 
                  <div class="inline-block logo"> 
                     <img src="images/logo.png">
                 </div>
@@ -25,15 +25,21 @@
         </header>
 </section>
 
+
 <div class="spacer">
     &nbsp;
 </div>
 
+
+
 <!-- LANDING -->
 <section>
-  <div id="LANDING">  <!--user's and design need a highlight 1/7-->
+  <div id="LANDING">
 <div  id="LANDleft">
-    <p class="slogan">Bringing the user's thoughts, feelings, and beliefs of to life through meaningful design.</p> 
+    <p class="slogan">Bringing the <mark>user's</mark> thoughts, feelings, and beliefs to life through meaningful <mark>design.</mark></p> 
+</div>
+<div class="spacer">
+    &nbsp;
 </div>
 <div id="LANDright">
     <img src="images/avatar.png">
@@ -52,16 +58,15 @@
 
 
 <!--CASA-->
-<div id="CASA">
+<div id="CASA" class="inline-block">
     <div id="CASAleft">
-        <h3 margin-left="72px">UX Case Study | UI Design sprint</h3>
-        <h1>Nonprofit redesign</h1>
-        <p>Evaluating the usability and accessibility of my local domestic abuse shelter's website, and applying psychological concepts to a responsive redesign.</p>
-        <button><h2>VIEW CASE STUDY</h2></button>
+        <h3>UX Case Study | UI Design sprint</h3>
+        <h1 >Nonprofit redesign</h1>
+        <p >Evaluating the usability and accessibility of my local domestic abuse shelter's website, and applying psychological concepts to a responsive redesign.</p>
+        <button ><h2>VIEW CASE STUDY</h2></button>
     </div>
-    <!--list on left, image on right-->
     <div id="CASAright">
-        <img src="images/casa mockup.png" width="640px">
+        <img src="images/casa mockup.png" width="700px">
     </div>
 </div>
 
@@ -71,9 +76,8 @@
 
 <!--NSA-->
 <div id="NSA">
-       <!--image on left, list on right-->
     <div id="NSAleft">
-        <img src="images/nsa mockup.png">
+        <img src="images/nsa mockup.png" width="730px">
     </div>
     <div id="NSAright">   
         <h3>UX Case Study | UI Design sprint</h3>
@@ -94,35 +98,34 @@
         <h3>UX Case Study | UI Design sprint</h3>
         <h1>Onlypets</h1>
         <p>Reinventing social media and creating a space for pet lovers to grow a community and share a love for animals.</p>
-        <img src="images/coming soon.png">
         <button><h2>COMING SOON</h2></button>
     </div>
-    <!--list on left, image on right-->
     <div id="OPright">
-        <img src="images/onlypets mockup.png">
+        <img src="images/onlypets mockup.png" width="420px">
     </div>
 </div>
 <div class="spacer">
     &nbsp;
 </div>
 <hr>
+<div class="spacer">
+    &nbsp;
+</div>
 
 
- <!--Let's chat with resume on left-->
  
     <div id="CONTACT">
        <div id="chatleft">
-        <h1>LET'S CHAT!</h1>
+        <h1><img src="images/chat.png">LET'S CHAT!</h1>
        <p>I'd love to connect with you and exchange information about our work, where we've been, and what inspires us.</p>
-       <button><h2>RESUME</h2></button>
+       <button><a href="https://drive.google.com/file/d/1opaDoS01KjANEHUlz5idYP9Qv4E7E9ve/view?usp=share_link" target="blank"><h2>RESUME</h2></a></button>
        </div>
 
-       <div id="chatright">
-        <!-- Needs stlying 1/7 -->
-        <ul> 
+       <div>
+        <ul  id="chatright"> 
            <li><img src="images/email.png"></li>
-           <li><img src="images/linkedin.png"></li>
-           <li><img src="images/instagram.png"></li>
+           <li><a href="https://www.linkedin.com/in/manifestingux/" target="blank"><img src="images/linkedin.png"></a></li>
+           <li><a href="https://www.instagram.com/manifestingux/" target="blank"> <img src="images/instagram.png"></a></li>
          </ul>
        </div>
 
@@ -142,10 +145,7 @@
 <section>
     <footer class="footer">
         <ul>
-            <li class="inline-block navMargin">About</li>
-            <li class="inline-block navMargin"> Work</li>
-            <li class="inline-block navMargin">LinkedIn</li>
-            <li class="inline-block navMargin">Resume</li>
+            <li class="inline-block footerList"> &copy 2023 Anna Riedle</li>
         </ul>
     </footer>
 </section>
