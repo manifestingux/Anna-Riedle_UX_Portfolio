@@ -162,24 +162,26 @@ header{
         left: 110px;
         top: 288px;
     }
-    mark {
-        -webkit-animation: 1s highlight 1s 1 normal forwards;
-                animation: 1s highlight 1s 1 normal forwards;
-        background-color: none;
-        background: linear-gradient(90deg, #FDECE9 50%, rgba(255, 255, 255, 0) 50%);
-        background-size: 200% 100%;
-        background-position: 100% 0;
-      }
-      @-webkit-keyframes highlight {
-        to {
-          background-position: 0 0;
-        }
-      }
-      @keyframes highlight {
-        to {
-          background-position: 0 0;
-        }
+
+    /* Copied from https://codepen.io/alvarotrigo/pen/popvzVw */
+mark {
+    -webkit-animation: 1s highlight 1s 1 normal forwards;
+            animation: 1s highlight 1s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #FDECE9 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+@-webkit-keyframes highlight {
+    to {
+    background-position: 0 0;
     }
+}
+@keyframes highlight {
+    to {
+    background-position: 0 0;
+    }
+}
 
  
  
@@ -196,6 +198,7 @@ body{
     width:100%;
     }
 
+
 /* CASA */
 #CASA {
     display: flex;
@@ -203,40 +206,38 @@ body{
     height: 500px;
   }
  
-  #CASAleft {
-    
+  #CASAleft {    
     background-color: #FAF9FD;
     width: 50%;
     float: left;
-    align-items: center;
-    
+    align-items: center;    
   }
- #CASAleft h3{
-    margin-left: 144px;
- }
- #CASAleft h1{
-    margin-left: 144px;
-    color: #7251B5;
- }
- #CASAleft p{
-    width: 420px;
-    margin-left: 144px;
- }
- #CASAleft button{
-    margin-left: 144px;
-    border: 3px solid #7251B5;
- }
- #CASAleft h2{
-    color: #7251B5;
- }
- #CASAleft button:hover{
-    transition-duration: 0.2s;
-    background-color:#7251B5;
- }
- #CASAleft button:hover h2{
-    color: #ffffff;
- }
-  #CASAright {
+    #CASAleft h3{
+        margin-left: 144px;
+    }
+    #CASAleft h1{
+        margin-left: 144px;
+        color: #7251B5;
+    }
+    #CASAleft p{
+        width: 420px;
+        margin-left: 144px;
+    }
+    #CASAleft button{
+        margin-left: 144px;
+        border: 3px solid #7251B5;
+    }
+    #CASAleft h2{
+        color: #7251B5;
+    }
+    #CASAleft button:hover{
+        transition-duration: 0.2s;
+        background-color:#7251B5;
+    }
+    #CASAleft button:hover h2{
+        color: #ffffff;
+    }
+#CASAright {
     background-color: #ECEAF6;
     width: 50%;
     float: right;
@@ -418,11 +419,6 @@ footer{
     float: right;
     height: 116px;
     background: #FDECE9;
-    /* font-family: 'Helvetica';
-    font-style: light;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 175%; */
     }
 
 
@@ -442,14 +438,7 @@ footer{
  
  
  
-   
- 
- 
-
- 
- 
- 
-/* "ABOUT PAGE" styling */
+/* "ABOUT PAGE"*/
 .bigHello{
     font-family: 'Helvetica';
     font-style: normal;
@@ -469,21 +458,13 @@ footer{
     margin-top: 72px;
     width: 500px;
     height: 55px;
-
-
-
-/* Desktop/H1
-
-Main Headers
-*/
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 55px;
-text-transform: uppercase;
-
-color: #000000;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #000000;
 }
 #Careerleft {
     float: left;
@@ -495,7 +476,7 @@ color: #000000;
     }
 #Careerright {
     float: right;
-    margin-right: 72px;
+    margin-right: 288px;
     margin-top: 144px;
     }
  span{
@@ -508,7 +489,9 @@ color: #000000;
  .aboutP2{
     width: 800px;
  }
-
+ .aboutP3{
+    width: 900px;
+ }
  .pspacer
 {
     width: 100%;
