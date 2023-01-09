@@ -464,12 +464,54 @@ footer{
     font-style: normal;
 }
 .careerSlogan{
-    font-family: 'Helvetica';
-    font-style: normal;
+
+    left: 110px;
+    margin-top: 72px;
+    width: 500px;
+    height: 55px;
+
+
+
+/* Desktop/H1
+
+Main Headers
+*/
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+text-transform: uppercase;
+
+color: #000000;
 }
- 
- 
- 
- 
- 
+#Careerleft {
+    float: left;
+    margin-left: 180px;
+    margin-top: 144px;
+    }
+    #jobtitleh2{
+        font-weight: 500;
+    }
+#Careerright {
+    float: right;
+    margin-right: 72px;
+    margin-top: 144px;
+    }
+ span{
+    color: #FF6C99;
+ }
+ #aboutP1{
+    width: 800px;
+  
+   }
+ .aboutP2{
+    width: 800px;
+ }
+
+ .pspacer
+{
+    width: 100%;
+    height: 20px;
+}
 
